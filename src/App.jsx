@@ -43,9 +43,8 @@ function App() {
 
   const displayMarkdown = () => {
     const html = marked.parse(input.textarea)
-    console.log(html)
     return (
-      <div dangerouslySetInnerHTML={{ __html: html }} />
+      <div id="preview" dangerouslySetInnerHTML={{ __html: html }} />
     )
   }
 
@@ -54,7 +53,7 @@ function App() {
     <>
       <h1>Home</h1>
       <textarea value={input.textarea} id="editor" name="textarea" onChange={(e) => { handleInput(e, setInput) }} />
-      <div id="preview">{displayMarkdown()}</div>
+      {displayMarkdown()}
 
     </>
   )
