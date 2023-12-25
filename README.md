@@ -1,8 +1,10 @@
-# React + Vite
+# Markdown Previewer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+I won't write much for this readme for now. Once I feel like fleshing out this project a bit more I will do it.
 
-Currently, two official plugins are available:
+This project was made as a freeCodeCamp project.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Learning Points:
+- displaying markdown on the web (turning markdown into html using marked.js library)
+- learned how to use tailwind css a bit (honestly I still feel like bootstrap and css is better but it's all good, I need to get used to it)
+- how to display code blocks and highlight it using highlight.js library
